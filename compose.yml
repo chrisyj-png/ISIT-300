@@ -1,0 +1,8 @@
+services:
+  web:
+    container_name: isit300-3-jones
+    image: nginx
+    ports:
+      - "80"
+    volumes:
+      - ./web:/usr/share/nginx/html
